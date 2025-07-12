@@ -39,14 +39,19 @@ jobs:
       - name: Build MkDocs
         run: |
           # Check if CNAME exists, if not, use GitHub Pages URL
-          if [ ! -f docs/CNAME ]; then
+          if [ ! -f CNAME ]; then
             echo "No custom domain, updating site_url for GitHub Pages"
             sed -i 's|site_url: https://docs.picsew.app|site_url: https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/|g' mkdocs.yml
           else
-            echo "Custom domain found: $(cat docs/CNAME)"
+            echo "Custom domain found: $(cat CNAME)"
             # Keep the existing site_url for custom domain
           fi
           mkdocs build
+          # Copy CNAME to site directory if it exists
+          if [ -f CNAME ]; then
+            cp CNAME site/
+            echo "CNAME file copied to site directory"
+          fi
       
       - name: Setup Pages
         uses: actions/configure-pages@v5
