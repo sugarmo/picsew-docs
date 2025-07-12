@@ -1,0 +1,30 @@
+{
+  "defaultLanguage": "en",
+  "languages": [
+    {
+      "code": "en",
+      "name": "English",
+      "nativeName": "English",
+      "path": "/"
+    },
+    {
+      "code": "ja",
+      "name": "Japanese",
+      "nativeName": "日本語",
+      "path": "/ja/"
+    },
+    {
+      "code": "zh-Hans",
+      "name": "Simplified Chinese",
+      "nativeName": "简体中文",
+      "path": "/zh-Hans/"
+    },
+    {
+      "code": "zh-hant",
+      "name": "Traditional Chinese",
+      "nativeName": "繁體中文",
+      "path": "/zh-hant/"
+    }
+  ],
+  "lastUpdated": "2025-01-12"
+}
