@@ -1,5 +1,5 @@
 site_name: Picsew Documentation
-site_url: https://docs.picsew.com
+site_url: https://docs.picsew.app
 site_description: Picsew Screenshot and Web Snapshot App Documentation
 site_author: Picsew
 
@@ -9,6 +9,7 @@ repo_url: https://github.com/picsew-docs/picsew-docs
 edit_uri: edit/main/mkdocs/docs/
 
 # Configuration
+use_directory_urls: true
 theme:
   name: material
   language: en
@@ -69,7 +70,7 @@ plugins:
               - 创建长截图: guide-create-scrollshot.md
               - 屏幕录制: guide-recording.md
               - 网页截图: guide-web-snapshot.md
-              - 小组件 (iOS 17&18): guide-widget-new.md
+              - 小组件 (iOS 17+): guide-widget-new.md
               - 小组件 (传统): guide-widget.md
               - 购买历史: guide-purchase-history.md
             - 开发者:
@@ -87,7 +88,7 @@ plugins:
               - 創建長截圖: guide-create-scrollshot.md
               - 屏幕錄製: guide-recording.md
               - 網頁截圖: guide-web-snapshot.md
-              - 小組件 (iOS 17&18): guide-widget-new.md
+              - 小組件 (iOS 17+): guide-widget-new.md
               - 小組件 (傳統): guide-widget.md
               - 購買歷史: guide-purchase-history.md
             - 開發者:
@@ -105,7 +106,7 @@ plugins:
               - ロングスクリーンショットの作成: guide-create-scrollshot.md
               - 画面録画: guide-recording.md
               - ウェブスナップショット: guide-web-snapshot.md
-              - ウィジェット (iOS 17&18): guide-widget-new.md
+              - ウィジェット (iOS 17+): guide-widget-new.md
               - ウィジェット (レガシー): guide-widget.md
               - 購入履歴: guide-purchase-history.md
             - 開発者向け:

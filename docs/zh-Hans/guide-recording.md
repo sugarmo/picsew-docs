@@ -4,11 +4,11 @@
 
 1. 打开系统的 **设置** App，点击 **控制中心**。
 
-	<img src="/assets/guide-recording-1.jpg" width="375" >
+	<img src="../../assets/guide-recording-1.jpg" width="375" >
 
 2. 启用 **屏幕录制**。
 
-	<img src="/assets/guide-recording-3.jpg" width="375" >
+	<img src="../../assets/guide-recording-3.jpg" width="375" >
 
 ## 使用直播插件
 
@@ -16,21 +16,21 @@
 
 2. 打开控制中心，长按（或者用力按） **屏幕录制** 按钮。
 
-	<img src="/assets/guide-recording-4.jpg" width="375" >
+	<img src="../../assets/guide-recording-4.jpg" width="375" >
 
 3. 在直播列表中，选择 **Picsew**，如果没有找到 Picsew 请重启设备或者重新添加“屏幕录制”控件。⚠️ 每次滚动截图都需要重复步骤 2-3，如果直接点击 **屏幕录制** 按钮，会使用系统的屏幕录制功能。
 
-	<img src="/assets/guide-recording-5.jpg" width="375" >
+	<img src="../../assets/guide-recording-5.jpg" width="375" >
 
-4. 点击 **开始直播**，屏幕录制按钮会变成倒计时，此时 **马上** 返回你要截图的 App，而不是等到 3 秒后开始直播时再返回。开始直播后，屏幕顶部会出现 <img src="/assets/guide-recording-indicator.png" style="height:1em !important; vertical-align:-10%" > 标记，在直播开始前不要滚动屏幕内容。
+4. 点击 **开始直播**，屏幕录制按钮会变成倒计时，此时 **马上** 返回你要截图的 App，而不是等到 3 秒后开始直播时再返回。开始直播后，屏幕顶部会出现 <img src="../../assets/guide-recording-indicator.png" style="height:1em !important; vertical-align:-10%" > 标记，在直播开始前不要滚动屏幕内容。
 
 5. 保持滚动屏幕内容，在你想要结束滚动截图的地方停止滚动（手指离开屏幕），等待 1 秒（可在 App 内修改该时间），Picsew 会自动结束屏幕录制，并且生成长截图，点击 **前往应用程序** 继续操作。
 
-	<img src="/assets/guide-recording-6.jpg" width="375" >
+	<img src="../../assets/guide-recording-6.jpg" width="375" >
 
 6. ⚠️ 在 iOS 14，Picsew 会发送通知来提示您滚动截图已完成，如果禁止 Picsew 发送通知或者启用 **勿扰模式**，将会无法看见此提示。
 
-	<img src="/assets/guide-recording-7.jpg" width="375" >
+	<img src="../../assets/guide-recording-7.jpg" width="375" >
 
 7. ⚠️ 滚动内容的时候注意不要过快，因为屏幕录制每秒最多 30 帧，滚动过快会导致连续的两帧之前没有重合区域，从而导致滚动截图拼接失败。
 
@@ -45,5 +45,5 @@ Picsew 会检测最近的屏幕录制视频，然后把它转换为长截图。�
 按照下面的步骤操作，大概率可以消除掉「辅助触控」。
 
 1. 开始录屏前把「辅助触控」放在屏幕最底部。
-2. 开始录屏，看到 <img src="/assets/guide-recording-indicator.png" style="height:1em !important; vertical-align:-10%" > 标记后，不要滚动内容，只是把「辅助触控」移动到屏幕最顶部。
+2. 开始录屏，看到 <img src="../../assets/guide-recording-indicator.png" style="height:1em !important; vertical-align:-10%" > 标记后，不要滚动内容，只是把「辅助触控」移动到屏幕最顶部。
 3. 开始滚动内容。 ​​​​
