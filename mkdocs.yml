@@ -1,0 +1,174 @@
+site_name: Picsew Documentation
+site_url: https://docs.picsew.com
+site_description: Picsew Screenshot and Web Snapshot App Documentation
+site_author: Picsew
+
+# Repository
+repo_name: picsew-docs/picsew-docs
+repo_url: https://github.com/picsew-docs/picsew-docs
+edit_uri: edit/main/mkdocs/docs/
+
+# Configuration
+theme:
+  name: material
+  language: en
+  palette:
+    # Palette toggle for light mode
+    - scheme: default
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    # Palette toggle for dark mode
+    - scheme: slate
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.expand
+    - navigation.path
+    - navigation.indexes
+    - toc.follow
+    - search.suggest
+    - search.highlight
+    - content.action.edit
+    - content.action.view
+    - content.code.copy
+
+# Plugins
+plugins:
+  - search
+  - i18n:
+      docs_structure: folder
+      fallback_to_default: true
+      reconfigure_material: true
+      reconfigure_search: true
+      languages:
+        - locale: en
+          default: true
+          name: English
+          build: true
+          theme:
+            language: en
+        - locale: zh-Hans
+          name: 简体中文
+          build: true
+          site_name: "Picsew 文档"
+          theme:
+            language: zh
+          nav:
+            - 首页: index.md
+            - 常见问题: faq.md
+            - 用户指南:
+              - 创建长截图: guide-create-scrollshot.md
+              - 屏幕录制: guide-recording.md
+              - 网页截图: guide-web-snapshot.md
+              - 小组件 (iOS 17&18): guide-widget-new.md
+              - 小组件 (传统): guide-widget.md
+              - 购买历史: guide-purchase-history.md
+            - 开发者:
+              - X-Callback-URL: x-callback-url.md
+        - locale: zh-hant
+          name: 繁體中文
+          build: true
+          site_name: "Picsew 文檔"
+          theme:
+            language: zh-Hant
+          nav:
+            - 首頁: index.md
+            - 常見問題: faq.md
+            - 用戶指南:
+              - 創建長截圖: guide-create-scrollshot.md
+              - 屏幕錄製: guide-recording.md
+              - 網頁截圖: guide-web-snapshot.md
+              - 小組件 (iOS 17&18): guide-widget-new.md
+              - 小組件 (傳統): guide-widget.md
+              - 購買歷史: guide-purchase-history.md
+            - 開發者:
+              - X-Callback-URL: x-callback-url.md
+        - locale: ja
+          name: 日本語
+          build: true
+          site_name: "Picsew ドキュメント"
+          theme:
+            language: ja
+          nav:
+            - ホーム: index.md
+            - よくある質問: faq.md
+            - ユーザーガイド:
+              - ロングスクリーンショットの作成: guide-create-scrollshot.md
+              - 画面録画: guide-recording.md
+              - ウェブスナップショット: guide-web-snapshot.md
+              - ウィジェット (iOS 17&18): guide-widget-new.md
+              - ウィジェット (レガシー): guide-widget.md
+              - 購入履歴: guide-purchase-history.md
+            - 開発者向け:
+              - X-Callback-URL: x-callback-url.md
+
+# Navigation
+nav:
+  - Home: index.md
+  - FAQ: faq.md
+  - User Guides:
+    - Create Long Screenshots: guide-create-scrollshot.md
+    - Screen Recording: guide-recording.md
+    - Web Snapshots: guide-web-snapshot.md
+    - Widget (iOS 17+): guide-widget-new.md
+    - Widget (Legacy): guide-widget.md
+    - Purchase History: guide-purchase-history.md
+  - Developer:
+    - X-Callback-URL: x-callback-url.md
+
+# Extra CSS
+extra_css:
+  - assets/custom.css
+
+# Extensions
+markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - toc:
+      permalink: true
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.magiclink:
+      repo_url_shorthand: true
+      user: picsew-docs
+      repo: picsew-docs
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+# Extra
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/picsew-docs/picsew-docs
+    - icon: fontawesome/regular/envelope
+      link: mailto:picsewapp@gmail.com

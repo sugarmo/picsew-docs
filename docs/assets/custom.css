@@ -1,0 +1,72 @@
+/* Custom color palette from https://colorhunt.co/palette/3334467f8caab8cfceeaefef */
+
+/* Light mode - use #333446 #7F8CAA #B8CFCE (exclude #EAEFEF - too bright) */
+[data-md-color-scheme="default"] {
+  /* Primary color - darkest #333446 for navigation background and main text */
+  --md-primary-fg-color: #333446;
+  --md-primary-fg-color--light: #7F8CAA;
+  --md-primary-fg-color--dark: #252633;
+  
+  /* Accent color - brightest #B8CFCE for clickable links and interactive elements */
+  --md-accent-fg-color: #B8CFCE;
+  --md-accent-fg-color--transparent: rgba(184, 207, 206, 0.1);
+  
+  /* Link colors - medium #7F8CAA for normal content links */
+  --md-text-link-color: #7F8CAA;
+  --md-typeset-a-color: #7F8CAA;
+  
+  /* Secondary text - medium #7F8CAA for headers and emphasized text */
+  --md-default-fg-color--light: #7F8CAA;
+  --md-default-fg-color--lighter: #7F8CAA;
+}
+
+/* Force sidebar navigation links to use correct colors in light mode */
+[data-md-color-scheme="default"] .md-nav__link {
+  color: #7F8CAA !important;
+}
+
+/* Force active navigation links to use dark blue-gray in light mode */
+[data-md-color-scheme="default"] .md-nav__link--active {
+  color: #586276 !important;
+}
+
+/* Force hover state for navigation links in light mode */
+[data-md-color-scheme="default"] .md-nav__link:hover {
+  color: #333446 !important;
+}
+
+
+/* Dark mode - use #333446 #B8CFCE #EAEFEF */
+[data-md-color-scheme="slate"] {
+  /* Primary color - #333446 as main theme color for dark mode */
+  --md-primary-fg-color: #333446;
+  --md-primary-fg-color--light: #B8CFCE;
+  --md-primary-fg-color--dark: #252633;
+  
+  /* Accent color - brightest #EAEFEF for high contrast on dark background */
+  --md-accent-fg-color: #EAEFEF;
+  --md-accent-fg-color--transparent: rgba(234, 239, 239, 0.1);
+  
+  /* Link colors - bright cyan #A7DEE3 for visibility and interaction */
+  --md-text-link-color: #A7DEE3;
+  --md-typeset-a-color: #A7DEE3;
+  
+  /* Secondary text - bright #B8CFCE for headers and emphasized text */
+  --md-default-fg-color--light: #B8CFCE;
+  --md-default-fg-color--lighter: #B8CFCE;
+}
+
+/* Force sidebar navigation links to use cyan in dark mode */
+[data-md-color-scheme="slate"] .md-nav__link {
+  color: #A7DEE3 !important;
+}
+
+/* Force active navigation links in dark mode */
+[data-md-color-scheme="slate"] .md-nav__link--active {
+  color: #e5fdfd !important;
+}
+
+/* Force hover state for navigation links in dark mode */
+[data-md-color-scheme="slate"] .md-nav__link:hover {
+  color: #EAEFEF !important;
+}
