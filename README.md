@@ -69,7 +69,7 @@ Each language has its own directory with:
 
 ## Deployment
 
-The site is configured for GitHub Pages deployment using GitHub Actions. The workflow is defined in `/.github/workflows/deploy-mkdocs.yml`.
+The site is configured for GitHub Pages deployment using GitHub Actions. The workflow is defined in `.github/workflows/deploy.yml`.
 
 ## Adding New Content
 

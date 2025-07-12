@@ -38,7 +38,6 @@ jobs:
       
       - name: Build MkDocs
         run: |
-          cd mkdocs
           mkdocs build
       
       - name: Setup Pages
@@ -47,7 +46,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./mkdocs/site
+          path: ./site
 
   deploy:
     environment:
