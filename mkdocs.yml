@@ -4,8 +4,8 @@ site_description: Picsew Screenshot and Web Snapshot App Documentation
 site_author: Picsew
 
 # Repository
-repo_name: picsew-docs/picsew-docs
-repo_url: https://github.com/picsew-docs/picsew-docs
+repo_name: sugarmo/picsew-docs
+repo_url: https://github.com/sugarmo/picsew-docs
 edit_uri: edit/main/mkdocs/docs/
 
 # Configuration
@@ -155,7 +155,7 @@ markdown_extensions:
   - pymdownx.keys
   - pymdownx.magiclink:
       repo_url_shorthand: true
-      user: picsew-docs
+      user: sugarmo
       repo: picsew-docs
   - pymdownx.mark
   - pymdownx.smartsymbols
@@ -170,6 +170,6 @@ markdown_extensions:
 extra:
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/picsew-docs/picsew-docs
+      link: https://github.com/sugarmo/picsew-docs
     - icon: fontawesome/regular/envelope
       link: mailto:picsewapp@gmail.com
